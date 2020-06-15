@@ -1,0 +1,1 @@
+"use strict";function loadingMessage(){return $('<div class="loader"></div>')}Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=loadingMessage;

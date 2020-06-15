@@ -1,0 +1,53 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#background {
+  background-color: rgb(32, 39, 39);
+  text-align: center;
+}
+
+#navBar {
+  bottom:10px;
+  padding:5px;
+  text-align:center;
+}
+
+#card {
+  border-radius: 8px;
+  width: 150px;
+  position: relative;
+  z-index: 1;
+  padding:2px;
+  margin-left: 40px;
+  margin-right: 5px;
+}
+
+#card:hover {
+  transform: scale(1.50);
+  position: relative;
+  z-index: 2;
+}
+
+#home {
+  color:white;
+}
+
+#nextPage {
+  color: white;
+}
+
+.loader {
+  margin: auto;
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid goldenrod; /* Blue */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
